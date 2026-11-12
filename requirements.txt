@@ -1,0 +1,6 @@
+Flask
+mysql-connector-python
+geopy
+numpy
+folium
+scikit-learn

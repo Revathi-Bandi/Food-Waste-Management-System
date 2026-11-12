@@ -1,0 +1,21 @@
+
+# Private credentials
+.env
+.env.*
+
+# Python files
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Database backup
+food_waste (2).sql
+*.sql
+
+# ZIP backup
+templates.zip
+
+# System files
+.DS_Store
+Thumbs.db
