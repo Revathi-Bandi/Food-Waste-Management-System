@@ -1,28 +1,32 @@
-# Food Waste Management System
+# 🍲 Food Waste Management System
 
-## About the Project
+A web-based Food Waste Management System developed using **Python Flask and MySQL**. The application aims to reduce food waste by connecting food providers with people who need food.
 
-The Food Waste Management System is a web-based application developed using Python Flask and MySQL. The main goal of this project is to reduce food waste by connecting food providers with people who need food.
+## 📌 About the Project
 
-The application provides a platform to manage food donations, food requirements, and food bookings.
+Food waste is a major problem. This project provides a platform where food providers can manage food donations and people in need can find and book available food.
 
-## Technologies Used
+The application supports food donations, food requirements, and food bookings through a web-based interface.
 
-- **Backend:** Python, Flask
-- **Database:** MySQL
-- **Frontend:** HTML, CSS, JavaScript
-- **Libraries:** NumPy, Scikit-learn, Folium, Geopy
-
-## Features
+## ✨ Features
 
 - User registration and login
 - Admin management
 - Food donation management
 - Food booking management
-- Food provider management
 - Food requirement management
+- Database-driven information management
 
-## Project Structure
+## 🛠️ Technologies Used
+
+| Category | Technologies |
+|---|---|
+| Backend | Python, Flask |
+| Database | MySQL |
+| Frontend | HTML, CSS, JavaScript |
+| Libraries | NumPy, Scikit-learn, Folium, Geopy |
+
+## 📂 Project Structure
 
 ```text
 Food-Waste-Management-System/
@@ -35,12 +39,12 @@ Food-Waste-Management-System/
 └── .gitignore
 ```
 
-## Installation and Setup
+## ⚙️ Installation and Setup
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/RevathiBandi/Food-Waste-Management-System.git
+git clone https://github.com/Revathi-Bandi/Food-Waste-Management-System.git
 ```
 
 ### 2. Navigate to the project folder
@@ -57,14 +61,14 @@ pip install -r requirements.txt
 
 ### 4. Configure MySQL
 
-- Install and start MySQL.
+- Install and start MySQL Server.
 - Create a database named `food_waste`.
-- Import the project database backup (provided separately).
+- Import the project SQL database backup.
 - Configure your database credentials using environment variables.
 
 ### 5. Configure environment variables
 
-Set these variables before starting the application:
+Set the following variables before running the application:
 
 - `FLASK_SECRET_KEY`
 - `DB_HOST`
@@ -72,31 +76,44 @@ Set these variables before starting the application:
 - `DB_PASSWORD`
 - `DB_NAME`
 
+Use your own local database credentials. Never upload passwords or secret keys to GitHub.
+
 ### 6. Run the application
 
 ```bash
 python main.py
 ```
 
-### 7. Open in your browser
+### 7. Open the application
+
+Visit the following address in your browser:
 
 ```text
 http://127.0.0.1:5000
 ```
 
-## Database Tables
+## 🗄️ Database Tables
 
 The project uses the following MySQL tables:
 
-- fo_admin
-- fo_booking
-- fo_donate
-- fo_food
-- fo_need
-- fo_post
-- fo_provider
-- fo_user
+- `fo_admin`
+- `fo_booking`
+- `fo_donate`
+- `fo_food`
+- `fo_need`
+- `fo_post`
+- `fo_provider`
+- `fo_user`
 
-## Author
+## 👩‍💻 Author
 
 **Revathi Bandi**
+
+Master's Student in Data Science  
+Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Germany
+
+[GitHub Profile](https://github.com/Revathi-Bandi)
+
+## 📄 License
+
+This project is available for educational and learning purposes.
