@@ -117,3 +117,16 @@ Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Germany
 ## 📄 License
 
 This project is available for educational and learning purposes.
+## Application Screenshots
+
+### Home Page
+![Home Page](screenshots/Screenshot%202026-11-16%20115823.png)
+
+### Food Provider Login
+![Food Provider Login](screenshots/Screenshot%202026-11-16%20120121.png)
+
+### Beneficiary Login
+![Beneficiary Login](screenshots/Screenshot%202026-11-16%20120202.png)
+
+### Admin Login
+![Admin Login](screenshots/Screenshot%202026-11-16%20120237.png)
